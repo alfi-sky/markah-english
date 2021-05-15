@@ -4,7 +4,7 @@
 .main{
     position: absolute; 
     width:80%; 
-    top: 80px;
+    top: 50px;
     border: 3px solid blue;
     right: 0px;
 }
