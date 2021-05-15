@@ -11,29 +11,33 @@
     .main{
         position: absolute; 
         width:70%; 
-        top: 30px;
+        top: 25px;
         border: 1px solid white;
         right: 0px;
     }
+
     /* MINIMALISASI NAVIGASI */
+    .dropdown{
+        position: relative;
+    }
     .dropdown .drop-content a{
         display: block;
         text-align: right;
         text-decoration: none;
-        padding: 5px;
-        
+        padding: 3px;
     }
+
     .dropdown .dropbtn{
         border: none;
         border-bottom: 2px solid #c969c2;
         border-left: 2px solid #c969c2;
-        float:right;
         padding: 7px;
         border-radius: 5px;
     }
+
     .dropdown .drop-content{
         background-color: aqua;
-        float: right;
     }
+
 
 }
