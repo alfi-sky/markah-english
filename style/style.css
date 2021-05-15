@@ -11,7 +11,14 @@
 /* MINIMALISASI NAVIGASI */
 .dropdown .drop-content a{
     display: block;
+    text-align: right;
 }
-
+.dropdown .dropbtn{
+    float:right;
+}
+.dropdown .drop-content{
+    background-color: aqua;
+    float: right;
+}
 
 }
