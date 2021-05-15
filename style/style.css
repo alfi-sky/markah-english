@@ -1,24 +1,39 @@
 @media screen and (max-width:360px){
+
+    *{
+        background-color: #25292E;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+    }
     /* PENGATURAN NAVIGASI KANAN */
 
-.main{
-    position: absolute; 
-    width:80%; 
-    top: 30px;
-    border: 3px solid blue;
-    right: 0px;
-}
-/* MINIMALISASI NAVIGASI */
-.dropdown .drop-content a{
-    display: block;
-    text-align: right;
-}
-.dropdown .dropbtn{
-    float:right;
-}
-.dropdown .drop-content{
-    background-color: aqua;
-    float: right;
-}
+    .main{
+        position: absolute; 
+        width:70%; 
+        top: 30px;
+        border: 1px solid white;
+        right: 0px;
+    }
+    /* MINIMALISASI NAVIGASI */
+    .dropdown .drop-content a{
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        padding: 5px;
+        
+    }
+    .dropdown .dropbtn{
+        border: none;
+        border-bottom: 2px solid #c969c2;
+        border-left: 2px solid #c969c2;
+        float:right;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    .dropdown .drop-content{
+        background-color: aqua;
+        float: right;
+    }
 
 }
