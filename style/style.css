@@ -60,3 +60,11 @@
     section {
         margin: 10px;
     }
+    td {
+        padding: 4px;
+    }
+    table, tr, td {
+        border: 1px solid white;
+    }
+    
+}
