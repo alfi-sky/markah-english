@@ -1,6 +1,5 @@
 /* ON PARENT SITE */
 @media screen and (max-width:360px){
-
     *{
         background-color: #25292E;
         color: white;
@@ -56,15 +55,19 @@
     }
     p{
         text-align: justify;
+        line-height: 25px;
     }
     section {
-        margin: 10px;
+        margin: 25px 10px 25px 10px;
     }
     td {
         padding: 4px;
     }
     table, tr, td {
         border: 1px solid white;
+        border-collapse: collapse;
     }
-    
+    table {
+        width:100%;
+    }
 }
