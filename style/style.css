@@ -1,4 +1,69 @@
-/* ON PARENT SITE */
+/* ON INDEX HTML */
+
+    /* MAIN ITEMS */
+    * {
+        color:#fff;
+        background-color: #25292E;
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    header {
+        height: 80px;
+    }
+    .main {
+        display: flex;
+        /* background-color: #c969c2; */
+        justify-content: space-around;
+        width: inherit;
+        height: inherit;
+    }
+    .dropdown .dropbtn {
+        vertical-align: middle;
+        width: inherit;
+        border-radius: 10px;
+        padding:10px;
+        border-color: #c969c2;
+        border-right: none;
+        border-top: none;
+    }
+    .dropdown .drop-content {
+        display: none;
+    }
+    .dropdown {
+        width: 200px;
+        /* background-color: aqua; */      /*USE THIS TO OVERVIEW YOUR CODE*/
+        /* border: black solid 2px; */
+    }
+    .dropdown .drop-content a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    .wallpaper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 465px;
+        justify-content: space-around;
+    }
+    .caption-wallpaper {
+        font-size: 40px;
+        font-style: italic;
+    }
+    .wallpaper .wall img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    footer {
+        text-align: right;
+        vertical-align: middle;
+        height: 30px;
+        font-style: italic;
+    }
+
+
+/* ON PARENT SITE ~ PERANGKAT LAIN */
 @media screen and (max-width:360px){
     *{
         background-color: #25292E;
@@ -7,13 +72,12 @@
         font-size: 14px;
     }
     /* PENGATURAN NAVIGASI KANAN */
-
     .main{
         position: absolute; 
         width:70%; 
-        top: 25px;
-        border: 1px solid white;
-        right: 0px;
+        right: 30px;
+        top: 10px;
+        margin: 10px;
     }
 
     /* MINIMALISASI NAVIGASI */
@@ -23,31 +87,31 @@
     .dropdown .drop-content a{
         display: block;
         text-align: right;
-        text-decoration: none;
+        text-decoration:none;
         padding: 3px;
     }
-
+    .dropdown .drop-content a:hover{
+        border-right: 5px solid #c969c2;
+    }
     .dropdown .dropbtn{
         border: none;
-        border-bottom: 2px solid #c969c2;
+        border-right: 2px solid #c969c2;
         border-left: 2px solid #c969c2;
         padding: 7px;
         border-radius: 5px;
-    }
-
-    .dropdown .drop-content{
-        background-color: aqua;
     }
 }
 
 /* ON CHILD SITE */
 @media screen and (max-width:360px) {
     .noun {
-        text-align: center;
-        margin: 0;
+        align-self: center;
         padding: 10px;
-        border: 2px solid white;
         border-radius: 10px;
+        border: solid 2px #c969c2;
+        border-top: none;
+        border-bottom: none;
+        width: max-content;
     }
     .wrap{
         width:360px;
@@ -69,5 +133,19 @@
     }
     table {
         width:100%;
+    }
+    th {
+        background-color:rgb(201, 105, 194, 0.2);
+        border-color: rgb(201, 105, 194);
+        /* border-bottom: rgb(201, 105, 194) 3px solid; */
+        border-style:solid; 
+        border-width: 0 0 3px 0;
+    }
+    span {
+        background-color: rgb(201, 105, 194, 0.2);
+        border-bottom: 2px solid rgb(201, 105, 194);
+    }
+    blockquote {
+        font-style: italic;
     }
 }
